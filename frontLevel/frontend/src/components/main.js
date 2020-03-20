@@ -4,6 +4,7 @@ import Home from './home';
 import Resume from './resume';
 import Project from './project';
 import Contact from './contact';
+import AboutMe from './aboutme';
 
 const Main = () =>(
     <Switch>
@@ -12,6 +13,7 @@ const Main = () =>(
         <Route path="/resume" component={Resume} />
         <Route path="/project" component={Project} />
         <Route path="/contact" component={Contact} />
+        <Route path="/aboutme" component={AboutMe} />
     </Switch>
 )
 
